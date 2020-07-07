@@ -1,6 +1,7 @@
 class Stack:
     def __init__(self):
-        pass
+        self.stack_items = []
+        
     def push(self, item):
         pass
     def pop(self):
