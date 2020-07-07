@@ -1,4 +1,7 @@
 class Stack:
+    """
+        This class contains the implementation of the Stack Data Structure.
+    """
     def __init__(self):
         """
             This method contains the instantiation of the Stack as a list.
