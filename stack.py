@@ -11,4 +11,6 @@ class Stack:
         return False
 
     def peek(self):
-        pass
+        if self.stack_items:
+            return self.stack_items[-1]
+        return False
