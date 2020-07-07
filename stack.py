@@ -4,8 +4,11 @@ class Stack:
 
     def push(self, item):
         self.stack_items.append(item)
-        
+
     def pop(self):
-        pass
+        if self.stack_items:
+            return self.stack_items.pop()
+        return False
+
     def peek(self):
         pass
